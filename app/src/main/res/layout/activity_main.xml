@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RelativesLayoutComun"
+    tools:context="com.example.joni.booklistingapp.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/buscador"
+        style="@style/LinearBusqueda">
+
+        <EditText
+            android:id="@+id/edit_text"
+            style="@style/EditText"
+            android:hint="@string/su_busqueda" />
+
+        <Button
+            android:id="@+id/boton_buscar"
+            style="@style/BotonesBusqueda"
+            android:background="@drawable/ic_search_white_18dp" />
+
+        <Button
+            android:id="@+id/boton_borrar"
+            style="@style/BotonesBusqueda"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/ic_delete_white_18dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        style="@style/Views"
+        android:layout_below="@id/buscador" />
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/ListView" />
+
+    <ImageView
+        android:id="@+id/imagen_buscador"
+        style="@style/ImagenFondo" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/ViewEmptyText" />
+</RelativeLayout>

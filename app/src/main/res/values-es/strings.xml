@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Busca tu libro</string>
+    <string name="año_publicacion">"Año de publicación: "</string>
+    <string name="coincidencias">PARECE QUE NO HAY LIBROS QUE COINCIDAN CON SU CRITERIO DE BÚSQUEDA</string>
+    <string name="idioma">"Idioma: "</string>
+    <string name="mas_info">Click para más información</string>
+    <string name="no_internet">COMPRUEBE SU CONEXIÓN A INTERNET</string>
+    <string name="paginas">"Páginas: "</string>
+    <string name="su_busqueda">Su búsqueda aquí:</string>
+</resources>

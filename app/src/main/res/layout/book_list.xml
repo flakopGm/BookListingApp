@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RelativesLayoutComun">
+
+    <TextView
+        android:id="@+id/titulo"
+        style="@style/TituloLibro" />
+
+    <ImageView
+        android:id="@+id/portada"
+        style="@style/PortadaLibro" />
+
+    <TextView
+        android:id="@+id/autors"
+        style="@style/AutoresLibro" />
+
+    <RelativeLayout
+        android:id="@+id/infoBook"
+        style="@style/RelativeInfoBook">
+
+        <TextView
+            android:id="@+id/fecha_publicacion"
+            style="@style/InfoBook"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp" />
+
+        <TextView
+            android:id="@+id/paginas_libro"
+            style="@style/InfoBook"
+            android:layout_below="@id/fecha_publicacion" />
+
+        <TextView
+            android:id="@+id/idioma"
+            style="@style/InfoBook"
+            android:layout_below="@id/paginas_libro"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="5dp" />
+    </RelativeLayout>
+</RelativeLayout>

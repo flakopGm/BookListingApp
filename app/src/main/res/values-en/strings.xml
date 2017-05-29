@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Book Listing App</string>
+    <string name="año_publicacion">Year of publication:</string>
+    <string name="coincidencias">IT SEEMS THAT THERE ARE NO BOOKS THAT MATCH WITH YOUR SEARCH CRITERION</string>
+    <string name="idioma">Language:</string>
+    <string name="mas_info">Click for more info</string>
+    <string name="no_internet">CHECK YOUR INTERNET CONNECTION</string>
+    <string name="paginas">Pages:</string>
+    <string name="su_busqueda">Your search here:</string>
+</resources>
